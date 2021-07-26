@@ -743,6 +743,10 @@ a:hover {
   margin: 70.3125px 0;
   padding-bottom: 10px;
 }
+.row__innerOne {
+  margin: 100px 0;
+}
+
 
 .tile {
   position: relative;
@@ -796,7 +800,7 @@ a:hover {
   z-index: 1; */
 }
 
-*/ .tile__details:before {
+ .tile__details:before {
   /* content: '▶'; */
   left: 0;
   width: 100%;
@@ -808,20 +812,19 @@ a:hover {
 }
 
 .tile:hover .tile__details {
-  opacity: 100;
+  opacity: 0;
 }
 
-/* .tile__title {
+.tile__title {
   position: absolute;
-  bottom: 0;
   padding: 10px;
-} */
+}
+
 .row__inner:hover {
-  transform: translate3d(-62.5px, 0, 0);
 }
 
 .row__inner:hover .tile {
-  opacity: 0.05;
+  opacity: 0.1;
 }
 
 .row__inner:hover .tile:hover {
@@ -830,18 +833,9 @@ a:hover {
 }
 
 .tile:hover~.tile {
-  transform: translate3d(10px, 0, 0);
+  transform: translate3d(50px, 0, 0);
 }
 
-@media screen and (max-width: 750px) {
-  .row {
-    overflow: scroll;
-    width: 100%;
-  }
-  .row__inner {
-
-  }
-}
 
 /* Contact */
 .bottom-button {
