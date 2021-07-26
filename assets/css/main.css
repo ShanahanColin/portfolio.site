@@ -862,6 +862,12 @@ a:hover {
 
 }
 
+@media screen and (max-width: 1200px) {
+  .tile__img:hover {
+  transform: scale(.5);
+  }
+}
+
 
 /* Contact */
 .bottom-button {
