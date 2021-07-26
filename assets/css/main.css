@@ -732,7 +732,7 @@ a:hover {
 }
 
 .row {
-  overflow: inherit;
+  overflow: scroll;
   width: 100%;
 }
 
