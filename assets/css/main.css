@@ -739,7 +739,6 @@ a:hover {
 
 .row__inner {
   transition: 450ms ;
-  font-size: 0;
   white-space: nowrap;
   margin: 70.3125px 0;
   padding-bottom: 10px;
@@ -786,10 +785,6 @@ a:hover {
 
 }
 
-.tile__img:hover {
-
-}
-
 /* .tile__details {
   position: absolute;
   bottom: 0;
@@ -808,6 +803,7 @@ a:hover {
   top: 50%;
   left: 50%;
   display: #000;
+  text-align: center;
 }
 
 .tile__details:after {
@@ -824,24 +820,25 @@ a:hover {
 }
 
  .tile__details:before {
-  /* content: '▶'; */
   left: 0;
   width: 100%;
   font-size: 30px;
   margin-left: 7px;
   margin-top: -18px;
-  text-align: center;
   z-index: 2;
+
 
 }
 
 .tile:hover .tile__details {
   opacity: 0;
+
 }
 
 .tile__title {
   position: absolute;
   padding: 10px;
+
 }
 
 .row__inner:hover {
@@ -884,6 +881,9 @@ a:hover {
   .tile{
     margin: 0;
     padding: 0;
+  }
+  .tile__title {
+    position: relative;
   }
 }
 
