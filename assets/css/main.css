@@ -863,11 +863,11 @@ a:hover {
 }
 
 @media screen and (max-width: 1200px) {
-  .row:hover {
-  transform: scale(.75);
-  }
   .row {
-  transform: scale(.75);
+  transform: scale(1);
+  }
+  .row:hover {
+  transform: scale(1);
   }
   .row__inner {
   transform: scale(.75);
@@ -876,10 +876,14 @@ a:hover {
   transform: scale(.75);
   }
   .tile__img {
-  transform: scale(.5);
+  transform: scale(.75);
   }
   .tile__img:hover {
-  transform: scale(.5);
+  transform: scale(.75);
+  }
+  .tile{
+    margin: 0;
+    padding: 0;
   }
 }
 
