@@ -868,6 +868,7 @@ a:hover {
   }
   .row__inner {
   transform: scale(.75);
+  margin: 25px 0;
   }
   .row__inner:hover {
   transform: scale(.75);
