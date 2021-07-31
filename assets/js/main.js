@@ -3,9 +3,9 @@
 	pixelarity.com | hello@pixelarity.com
 	License: pixelarity.com/license
 */
-
-let clean = DOMPurify.sanitize( dirty );
-let clean = DOMPurify.sanitize( dirty , {SAFE_FOR_JQUERY: {html: true}} );
+//
+// let clean = DOMPurify.sanitize( dirty );
+// let clean = DOMPurify.sanitize( dirty , {SAFE_FOR_JQUERY: {html: true}} );
 
 
 (function($) {
