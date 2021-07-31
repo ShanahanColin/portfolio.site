@@ -4,6 +4,10 @@
 	License: pixelarity.com/license
 */
 
+let clean = DOMPurify.sanitize( dirty );
+let clean = DOMPurify.sanitize( dirty , {SAFE_FOR_JQUERY: {html: true}} );
+
+
 (function($) {
 
 	var	$window = $(window),
