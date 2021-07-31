@@ -20,6 +20,11 @@ section, summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
+.spaceIt {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
 h3 {
   font-size: 1.75rem;
 }
